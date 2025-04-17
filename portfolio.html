@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+   <title>Final Project Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!----------- Header section -------->
+   <header class="header">
+      
+      <a href="#"><img src="Manar logo.png" alt="Logo of manar ventures"></a>
+      
+      <div class="navMenu" id="navMenu">
+         <!---Add JavaScript onclick--->
+         <i class='bx bx-window-close' onclick="closeMenu()"></i>
+         
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         
+      </div>
+  <!---Add JavaScript onclick--->
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+   </header>   
+   
+  <!-------- Sub-Header section -------->
+  <section class="sub-header" id="sub-header">
+     <h1>Recent <span>Products</span></h1>
+  </section>
+   
+  <!----------Portfolio Section --------->
+  <section class="portfolio" id="portfolio" id="ptf">
+     <div class="sub-text-title">
+        <h2>Coconut <span>Oils</span></h2>
+     </div>
+     <div class="portfolio-content">
+        
+        <div class="row">
+           <img src="100mls.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+         
+        <div class="row">
+           <img src="1Litre.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+     </div>
+  </section>
+  
+  <section class="portfolio" id="portfolio">
+     <!-- Added id=stt for this and 3rd section for styling -->
+     <div class="sub-text-title" id="stt">
+        <h2>Regular <span>Tapioca</span></h2>
+     </div>
+     <div class="portfolio-content">
+        
+        <div class="row">
+           <img src="100mls 2.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+         
+        <div class="row">
+           <img src="Regular.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+     </div>
+  </section>
+  
+  <section class="portfolio" id="portfolio">
+     <div class="sub-text-title" id="stt">
+        <h2><span>Tapioca</span> Flour/Flakes</h2>
+     </div>
+     <div class="portfolio-content">
+        
+        <div class="row">
+           <img src="Flour.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+         
+        <div class="row">
+           <img src="Flakes.jpg" alt="">
+           <div class="cover">
+              <h5>Product Showcase</h5>
+              <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+           </div>
+        </div>
+         
+     </div>
+  </section>
+  
+  <!---------------Footer-------------->
+  <footer class="footer">
+     <div class="attribution">
+        <p>Designed with <i class='bx bx-heart' ></i> By Isa FO</p>
+     </div>
+     <div class="move-up"> <!-- change the href of the anchor tag to #sub-header so that the up arrow will respond -->
+          <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+     </div>
+  </footer>
+    
+  <!---JS for toggle Menu--->
+  <script>
+     var navMenu = document.getElementById("navMenu");
+       
+     function openMenu() {
+        navMenu.style.right = "0"
+     }
+       
+     function closeMenu() {
+        navMenu.style.right = "-200px>"
+     }
+  </script>
+</body>
+</html>

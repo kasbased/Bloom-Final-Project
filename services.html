@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+   <title>Final Project Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+     <!----------- Header section -------->
+   <header class="header">
+      
+      <a href="#"><img src="Manar logo.png" alt="Logo of manar ventures"></a>
+      
+      <div class="navMenu" id="navMenu">
+         <!---Add JavaScript onclick--->
+         <i class='bx bx-window-close' onclick="closeMenu()"></i>
+         
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         
+      </div>
+      <!---Add JavaScript onclick--->
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+   </header>   
+   
+  <!-------- Sub-Header section -------->
+  <section class="sub-header" id="sub-header">
+     <h1><span>My</span> Services</h1>
+  </section>
+   
+  <!----------Services Section --------->
+   <section class="services" id="services">
+      <div class="text-title">
+         <h2>What I <span>Do?</span></h2>
+      </div>
+      <div class="services-content">
+         
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-code"></i>
+            </div>
+            <h3>Oil Formulator</h3>
+            <p>As a coconut oil formulator, I'm passionate about harnessing the power of nature to create nourishing products that promote wellness and self-care. With every blend, I carefully balance the benefits of coconut oil with other natural ingredients to create unique and effective solutions. My goal is to empower individuals to take control of their health and beauty routines with the simplicity and potency of coconut oil.</p>
+            <a href="#" class="btn">Make a booking</a>
+         </div>
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-devices"></i>
+            </div>
+            <h3>Tapioca Vendor</h3>
+            <p>I am dedicated to sharing the versatility and nutritional benefits of this amazing root with my community so I offer high-quality tapioca products that cater to diverse culinary needs. Whether you're a seasoned chef or a home cook, I invite you to explore the endless possibilities of tapioca with me!</p>
+            <a href="#" class="btn">Make a booking</a>
+         </div>
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-pen"></i>
+            </div>
+            <h3>Wellness Coach</h3>
+            <p>Are you ready to unlock your full potential and achieve holistic wellness? As your wellness coach, I'll guide you in identifying and breaking through barriers, empowering you to reach your goals and live a more balanced life. Book a session with me today and let's start your journey to radiant health and happiness!</p>
+            <a href="#" class="btn">Book a session</a>
+         </div>
+           
+      </div>
+   </section>
+   <!------------ Others Section --------->
+   <section class="others">
+      <div class="sub-title-text">
+         
+         <h2><span>Other</span> Services</h2>
+      </div>
+      <div class="others-img">
+         <img src="Tea.jpg" alt="#">
+         <span class="circle-spin"></span>
+      </div>
+      <div class="others-text">
+         <h3><span>As</span> a lover of hollistic wellness...</h3>
+         <p>Are you ready to unlock your full potential and achieve holistic wellness? <br><br> As your wellness coach, I'll guide you in identifying and breaking through barriers, empowering you to reach your goals and live a more balanced life. <br><br> Book a session with me today and let's start your journey to radiant health and happiness!</p>
+      </div>
+      <div>
+         <a href="#" class="btn">Enrol Now</a>
+      </div>
+   </section>
+
+    <!----------Footer--------->
+    <footer class="footer">
+       <div class="attribution">
+          <p>Designed with <i class='bx bx-heart' ></i> By Isa FO</p>
+       </div>
+       <div class="move-up"> <!-- change the href of the anchor tag to #sub-header so that the up arrow will respond -->
+          <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+       </div>
+    </footer>
+    
+    <!---JS for toggle Menu--->
+    <script>
+       var navMenu = document.getElementById("navMenu");
+       
+       function openMenu() {
+          navMenu.style.right = "0"
+       }
+       
+       function closeMenu() {
+          navMenu.style.right = "-200px>"
+       }
+    </script>
+</body>
+</html>

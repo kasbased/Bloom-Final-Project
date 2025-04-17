@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+   <title>Final Project Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+     <!----------- Header section -------->
+   <header class="header">
+      
+      <a href="#"><img src="Manar logo.png" alt="Logo of manar ventures"></a>
+      
+      <div class="navMenu" id="navMenu">
+         <!---Add JavaScript onclick--->
+         <i class='bx bx-window-close' onclick="closeMenu()"></i>
+         
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         
+      </div>
+      <!---Add JavaScript onclick--->
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+   </header>   
+   
+  <!-------- Sub-Header section -------->
+  <section class="sub-header" id="sub-header">
+     <h1>About <span>Me</span></h1>
+  </section>
+   
+  <!----------- about section -------->
+   
+   <section class="about" id="about">
+      <div class="about-img">
+         <img src="About me 2.png" alt="">
+      </div>
+      <div class="about-text" id="about-text">
+         
+         <h4><span class="abt-tx">I'm a </span>Wellness Enterpreneur</h4>
+         <p>I am a Muslimah entrepreneur passionate about sharing nature's blessings. I craft high-quality coconut oil products that nourish body and soul. Join me on this journey to radiant health and beauty!</p>
+         <a href="#" class="btn">Let's Talk</a>
+      </div>
+   </section>
+   <!------------ Others section --------->
+   <section class="others" id="others">
+      <div class="sub-title-text">
+         
+         <h2>Why <span>Me</span></h2>
+      </div>
+      <div class="others-img">
+         <img src="Manar logo.png" alt="#">
+         <span class="circle-spin"></span>
+      </div>
+      <div class="others-text">
+         <h3><span>As</span> a Wellness Entrepreneur and Vendor</h3>
+         <p>I love to learn about natural products for the body and mind. </p>
+         <p>I also empower others in my spare time through holistic wellness solutions.</p>
+         <p>And I love to foster a community of like-minded individuals prioritizing self-care and wellness.</p>
+      </div>
+      <div>
+         <a href="#" class="btn">Hire Me</a>
+      </div>
+   </section>
+   
+    <!----------Footer--------->
+    <footer class="footer">
+       <div class="attribution">
+          <p>Designed with <i class='bx bx-heart' ></i> By Isa FO</p>
+       </div>
+       <div class="move-up"> <!-- change the href of the anchor tag to #sub-header so that the up arrow will respond -->
+          <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+       </div>
+    </footer>
+    
+    <!---JS for toggle Menu--->
+    <script>
+       var navMenu = document.getElementById("navMenu");
+       
+       function openMenu() {
+          navMenu.style.right = "0"
+       }
+       
+       function closeMenu() {
+          navMenu.style.right = "-200px>"
+       }
+    </script>
+</body>
+</html>

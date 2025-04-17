@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+   <title>Final Project Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   
+  <link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!--------------Header -------------->
+   <!--we want the image to be clickable, thats why we embed it in an anchor tag.
+      2. Add close and menu buttons (above ul and below div respectively) from box icons to improve the responsiveness of the site when being viewed on a phone.-->
+   <header class="header">
+      
+      <a href="#"><img src="Manar logo.png" alt="Logo of manar ventures"></a>
+      
+      <div class="navMenu" id="navMenu">
+         <!---Add JavaScript onclick--->
+         <i class='bx bx-window-close' onclick="closeMenu()"></i>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+      <!---Add JavaScript onclick--->
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+   </header>
+   
+   <!---------------Home Session-------->
+   <section class="home" id="home">
+      <div class="home-content">
+         <div class="show">
+            <span class="first">Hello</span>
+            <span class="second">I'm</span>
+         </div>
+         <h1>Nimatallah Yusuf</h1>
+         <h3>Wellness <span>Entrepreneur</span></h3>
+         <p>We specialise in formulating hot pressed coconut oil<br>intended to nourish and nurture your skin and hair</p>
+         <div class="button">
+            <a href="#" class="btn">About Me</a>
+         </div>
+         
+      </div>
+   </section>
+   
+   <!----------- about section -------->
+   <section class="about" id="about">
+      <div class="about-img">
+         <img src="About me 2.png" alt="">
+      </div>
+      <div class="about-text">
+         <h2>About <span>Me</span></h2>
+         <h4>Wellness Enterpreneur</h4>
+         <p>I am a Muslimah and an entrepreneur that is passionate about sharing nature's blessings. I craft high-quality coconut oil products that nourish body and soul. Join me on this journey to radiant health and beauty!</p>
+         <a href="#" class="btn">More About</a>
+      </div>
+   </section>
+   
+   <!----------Services Section --------->
+   <section class="services" id="services">
+      <div class="text-title">
+         <h2><span>My</span> Services</h2>
+      </div>
+      <div class="services-content">
+         
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-code"></i>
+            </div>
+            <h3>Coconut Oil</h3>
+            <p>We offer hot pressed coconut oil of various sizes ranging from 100mls to 1000mls (1Litre), carefully crafted to deliver exceptional quality and purity.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-devices"></i>
+            </div>
+            <h3>Tapioca Flakes</h3>
+            <p>Experience the delightful texture and neutral flavor of our high-quality tapioca flakes, perfect for adding crunch and interest to your favorite recipes.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+         <div class="box">
+            <div class="icons">
+               <i class="bx bx-pen"></i>
+            </div>
+            <h3>Tapioca flour</h3>
+            <p>From gluten-free baking to vegan cooking, our tapioca flour is the perfect ingredient for your culinary creations.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+           
+      </div>
+   </section>
+   
+   <!----------Portfolio Section --------->
+   <section class="portfolio" id="portfolio">
+      <div class="text-title">
+         <h2><span>My</span> Products</h2>
+      </div>
+      <div class="portfolio-content">
+         <div class="row">
+            <img src="100mls.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+         <div class="row">
+            <img src="1Litre.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+         <div class="row">
+            <img src="100mls 2.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+         <div class="row">
+            <img src="Regular.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+         <div class="row">
+            <img src="Flour.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+         <div class="row">
+            <img src="Flakes.jpg" alt="">
+            <div class="cover">
+               <h5>Product Showcase</h5>
+               <p>Discover our curated collection of innovative products, designed to enhance your lifestyle and meet your everyday needs.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+         </div>
+         
+      </div>
+   </section>
+   
+   <!----------Contact Section --------->
+   <section class="contact" id="contact">
+      <div class="contact-text">
+         <h2>Contact <span>Me!</span></h2>
+         <h4>Whatever your wellness routine may be... </h4>
+         <p>You can learn more about our premium products or place an order through the following channels</p>
+         <div class="list">
+            <li><a href="#">+2348078911184</a></li>
+            <li><a href="#">tapiocabymanar@gmail.com</a></li>
+            <li><a href="#">Like, Share & Subscribe</a></li>
+         </div>
+         <div class="icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+         </div>
+      </div>
+      <div class="contact-form">
+         <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="number" placeholder="Your Mobile Number" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="How may I help you?" required></textarea>
+            <input type="submit" value="Send Message" class="submit">
+         </form>
+      </div>
+   </section>
+   
+    <!----------Footer--------->
+    <footer class="footer">
+       <div class="attribution">
+          <p>Designed with <i class='bx bx-heart'></i> By Isa FO</p>
+       </div>
+       <div class="move-up">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+       </div>
+    </footer>
+    
+    <!---JS for toggle Menu--->
+    <script>
+       var navMenu = document.getElementById("navMenu");
+       
+       function openMenu() {
+          navMenu.style.right = "0"
+       }
+       
+       function closeMenu() {
+          navMenu.style.right = "-200px>"
+       }
+    </script>
+</body>
+</html>
