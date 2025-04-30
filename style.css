@@ -44,7 +44,7 @@ body {
    position: fixed;
    top: 0;
    right: 0;
-font: ;   z-index: 1000;/* learn-more */
+   z-index: 1000;/* learn-more */
    display: flex;
    align-items: center;
    justify-content: space-evenly; /* center */
@@ -338,8 +338,8 @@ span {
    transform: scale(1.1);
 }
 
-.portfolio-content .row:hover cover {
-   height: 80%; /* 100 */
+.portfolio-content .row:hover .cover {
+   height: 100%;
 }
 
 .contact {
