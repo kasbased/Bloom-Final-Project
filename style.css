@@ -178,18 +178,16 @@ span {
 
 .about {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
    align-items: center;
    gap: 1.5rem;
-   padding: 130px 15% 120px; /* added */
 }
 
 .about-img img {
    max-width: 530px; /* 530 */
    width: 100%;
-   height: 100vh; /* auto */
+   height: auto; /* me 100vh */
    border-radius: 5px;
-   margin-top: 300px; /* added */
 }
 
 .about-text h2 {
@@ -199,10 +197,10 @@ span {
 }
 
 .about-text h4 {
-   font-size: 22px; /* 24 */ /* For fin*/
+   font-size: 22px; /* 24 */
    font-weight: 600;
    color: var(--text-color-one);
-   line-height: 1.2; /* 1.7 */
+   line-height: 1.7; /* 1.7 */
    margin: 15px 0 20);
    padding-bottom: 10px;
 }
@@ -211,7 +209,7 @@ span {
    font-size: var(--p-font);
    font-family: 'Fantasy', Times, serif;
    color: var(--text-color-two);
-   line-height: 1.5; /* 1.8 */
+   line-height: 1.8; /* 1.8 */
    margin-bottom: 4rem;
 }
 
